@@ -38,7 +38,7 @@ The core of the project is built on transfer learning with **ResNet-18** for fea
 - **CBAM** for channel and spatial attention.
 - **Dropout** and **Batch Normalization** for regularization.
 
-For full details on the architecture, refer to the [report](#).
+For full details on the architecture, refer to the [report](DermAI-report.pdf).
 
 ## Pre-processing Pipeline
 The pre-processing pipeline ensures data quality and consistency:
@@ -46,7 +46,7 @@ The pre-processing pipeline ensures data quality and consistency:
 - **Image resizing** to 224x224 pixels for ResNet input.
 - **Data augmentation** (flipping and rotation) to address class imbalance.
 
-For more details on the pipeline, refer to the documentation [here](#).
+For more details on the pipeline, refer to the documentation [here](DermAI-report.pdf).
 
 ## Results
 The model achieved:
@@ -54,7 +54,7 @@ The model achieved:
 - **68.9% accuracy** on the unseen Buenos Aires dataset.
 - Precision and recall scores of over 0.7 for cancerous lesions, minimizing false negatives, which is critical in early skin cancer detection.
 
-For more details on the results and performance evaluation, check out the [report](#).
+For more details on the results and performance evaluation, check out the [report](DermAI-report.pdf).
 
 ## Installation
 Clone the repository:
